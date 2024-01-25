@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script  src="popup.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .btn {
+            border: none;
+            height: 70px;
+            background-color: #8FA6CB;
+            width: 200px;
+            margin: 20px;
+            border-radius: 6px;
+            font-size: 20px;
+            color: white;
+        }
+
+        .btn:hover {
+            cursor: pointer;
+        }
+
+        .btn-success {
+            background-color: #57A773;
+        }
+
+        .btn-fail {
+            background-color: #EE6352;
+        }
+
+        .btn:disabled {
+            background-color: gray;
+            cursor: default;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn" id="parse-btn">Copy failing snapshots</button>
+</body>
+</html>
